@@ -21,6 +21,11 @@ Disallow:
 ## Usage
 
 ```
+$ git clone git@github.com:NaoY-2501/selenium_with_idol.git
+$ cd selemium_with_idol
+```
+
+```
 $ python3 -m venv venv
 $ source venv/bin/activate
 (venv) $ python scraping.py
