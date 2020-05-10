@@ -25,9 +25,16 @@ $ git clone git@github.com:NaoY-2501/selenium_with_idol.git
 $ cd selemium_with_idol
 ```
 
+[`chromedriver-binary`](https://pypi.org/project/chromedriver-binary/)は手元のChromeのバージョンに合ったものをインストールしてください。
+
+[chromedriver-binary Release history](https://pypi.org/project/chromedriver-binary/#history)
+
+
 ```
 $ python3 -m venv venv
 $ source venv/bin/activate
+(venv) $ pip install -r requirements.txt
+(venv) $ pip install chromedriver-binary=={version}
 (venv) $ python scraping.py
 CHEERZ artist ID: 880
 directory name (Optional. Default is artist id.): kanzaki fuka
