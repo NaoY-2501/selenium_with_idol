@@ -29,6 +29,8 @@ def is_valid_artist_id(artist_id: str) -> bool:
     except ValueError:
         return False
     url = f'https://cheerz.cz/artist/{artist_id}/community'
+    # user-agent for requests.
+    # If without user-agent, response will be 403.
     ua = (
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) '
         'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36'
