@@ -1,7 +1,6 @@
 beautifulsoup4==4.9.0
 certifi==2020.4.5.1
 chardet==3.0.4
-chromedriver-binary==81.0.4044.138.0
 idna==2.9
 requests==2.23.0
 selenium==3.141.0
