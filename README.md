@@ -45,8 +45,23 @@ Accomplished. 44 sources has fetched.
 Extract image URLs.
 Accomplished. 865 URLs has extracted.
 Save images.
-100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 865/865 [06:08<00:00,  2.35it/s]
+100%|████████████████████|  865/865 [06:08<00:00,  2.35it/s]
 Accomplished.
 ```
 
 一度、実行した後に画像が追加されても同じディレクトリを指定すれば差分のみダウンロードされます。
+
+```
+(venv) $ python scraping.py
+CHEERZ artist ID: 8466
+directory name (Optional. Default is artist id.): yamagata hanna
+Fetch page sources.
+Accomplished. 7 sources has fetched.
+Extract image URLs.
+Accomplished. 135 URLs has extracted.
+Save images.
+Exist images: 133
+New Images: 2
+100%|████████████████████|  2/2 [00:00<00:00,  2.31it/s]
+Accomplished.
+```
