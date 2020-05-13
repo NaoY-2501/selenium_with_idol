@@ -3,7 +3,9 @@
 
 ## Blog
 
-TBA.
+アイドルで理解するSelenium - リンクを見つけて移動するだけ
+
+https://nao-y.hatenablog.com/entry/2020/05/13/235752
 
 ## Summary
 
